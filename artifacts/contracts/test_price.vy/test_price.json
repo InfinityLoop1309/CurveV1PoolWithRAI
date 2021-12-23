@@ -1,0 +1,30 @@
+{
+  "_format": "hh-vyper-artifact-1",
+  "contractName": "test_price",
+  "sourceName": "contracts/test_price.vy",
+  "abi": [
+    {
+      "stateMutability": "nonpayable",
+      "type": "constructor",
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "stateMutability": "view",
+      "type": "function",
+      "name": "snappedRedemptionPrice",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "gas": 360
+    }
+  ],
+  "bytecode": "0x61004e56600436101561000d5761003f565b60046000601c376000513461004557636998c48d811861003d576b09b18ab5df7180b6b800000060e052602060e0f35b505b60006000fd5b600080fd5b61000461004e0361000460003961000461004e036000f3",
+  "deployedBytecode": "0x600436101561000d5761003f565b60046000601c376000513461004557636998c48d811861003d576b09b18ab5df7180b6b800000060e052602060e0f35b505b60006000fd5b600080fd",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

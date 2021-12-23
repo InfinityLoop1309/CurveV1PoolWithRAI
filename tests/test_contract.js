@@ -50,7 +50,7 @@ describe ('test',async ()=>{
         let res5 = ethers.utils.formatUnits(res)
         expect( res4 < res3).equal(true)
 
-    })
+    }),
     it('exchanges',async()=>{
         res = await crvSigner.exchange(0,1,ethers.utils.parseUnits("0.1","18"),ethers.utils.parseUnits("0.1","18"))
     })
